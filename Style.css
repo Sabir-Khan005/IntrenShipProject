@@ -344,3 +344,27 @@ footer {
         flex-direction: column;
     }
 }
+
+
+/* Small Mobile Devices(Max width: 360px) */
+
+@media(max-width: 360px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .project-card {
+        margin: 0 10px;
+    }
+}
+
+
+/* Large Displays (Min width: 144px) */
+
+@media(min-width: 1440px) {
+    .section {
+        padding: 100px 10px;
+    }
+}
